@@ -1,0 +1,70 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "AnilDBTest Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "81ZOS5buLSCMk7euWs0SIwCTz6eO9C07",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "num_instances": 1,
+        "pipeline_path": "AnilDBTest",
+        "snaplex_path": null
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 15,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2019-07-10",
+        "start_time": "15:13:42",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 15,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2019-07-10",
+        "start_time": "15:13:42",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
