@@ -15,7 +15,7 @@
             "recipients": null
         },
         "num_instances": 1,
-        "pipeline_path": "../Anilkumar Dyava/testrest",
+        "pipeline_path": null,
         "snaplex_path": "cloud-dev"
     },
     "schedule": {
