@@ -1,0 +1,58 @@
+{
+    "class_id": "com-snaplogic-snaps-email-smtpaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "SL-Support"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "outlook"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "attachmentPassword": {
+                "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                "sym_iv": "nEIunF1l5GxHRLhFsnvg3Q==",
+                "sym_key": "IiSGkoJXllxVk9BLwOPKWNpkYcNtNe6mftQ2T/XVZ5/JgbZoPnVCorZMd9uLTzeLmIdt8bSny9OzykNKfsF/lh+Zq2j9ZcE3MxhgqzZbVYz9BTFM3yS3xcErhDm2Rn7J9mxvBR0Swhd0hpsLb67k7GMmklUwnmJ4tzXFH7toRaqbNX1V+4ccyxL8uhRAX42hg+xZajc7Ug/cuxuHZj8NXW5W+iG/eF+Jl50Vo56NV4tg/zdzHsuqTyVtgEra+HnEzjx8Cu6/hGx2bqibHrsBFH++DyKo5MQyeILyB1FN81tvpsuYH6lECJUGJSmPPo0wUrp4bKyAb7ZlR6gf/tnckA==",
+                "value": "f9dAtqtYAGd1Fh8S+VTmDA=="
+            },
+            "connectionTimeout": {
+                "value": 60000
+            },
+            "emailId": {
+                "value": "anildyava@outlook.com"
+            },
+            "mailProperties": {
+                "value": []
+            },
+            "password": {
+                "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                "sym_iv": "nw1gEyFUSMEtL9sk3YL2Ag==",
+                "sym_key": "A2ORdaf2FmTqUe45hgEoDZcM/fgwmFc/+0W9MgHuymDtpMovC4Bs7IA+v19QskGiWAL0fH3KOJ04VYEy/Hc+2BXWUyxglyLVG7zeVAyHpGZWSUz6hoe+CvLWDra0YefwXcgSICsWbsBHlbpz8xil8oMnJD+NQ1nPsDyMcIpPuHyHwHlMsS8tg943iJuMrnjQVpBc2owaoUvG3p6MeyNdMJnnlPFNF/MVepiuPFnsKfhigga52wpjsCPHleuS6AExlvh7ofMOhzhYtMdRl/B8ZMmMBRISxFMiI9KEQQCEON4YsK0wTZryivlrZ2cMvIhAmltK7SM995NN/GggSpVF2g==",
+                "value": "mFAhqom/OqkpIlixV+Eu1A=="
+            },
+            "port": {
+                "value": "587"
+            },
+            "readTimeout": {
+                "value": 60000
+            },
+            "secureConnection": {
+                "value": "STARTTLS"
+            },
+            "serverDomain": {
+                "value": "smtp-mail.outlook.com"
+            },
+            "writeTimeout": {
+                "value": 60000
+            }
+        },
+        "view_serial": 100
+    }
+}

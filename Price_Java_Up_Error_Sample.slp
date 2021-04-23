@@ -1,0 +1,2865 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link265": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000014",
+            "src_view_id": "output0"
+        },
+        "link266": {
+            "dst_id": "11111111-1111-1111-1111-000000000014",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output0"
+        },
+        "link267": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        },
+        "link268": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        },
+        "link314": {
+            "dst_id": "11111111-1111-1111-1111-000000000019",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output0"
+        },
+        "link334": {
+            "dst_id": "11111111-1111-1111-1111-000000000015",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000011",
+            "src_view_id": "output0"
+        },
+        "link373": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000009",
+            "src_view_id": "output0"
+        },
+        "link394": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-00000000000c",
+            "src_view_id": "output0"
+        },
+        "link395": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link404": {
+            "dst_id": "11111111-1111-1111-1111-00000000000d",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000013",
+            "src_view_id": "output0"
+        },
+        "link405": {
+            "dst_id": "11111111-1111-1111-1111-00000000000f",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000d",
+            "src_view_id": "output0"
+        },
+        "link407": {
+            "dst_id": "11111111-1111-1111-1111-00000000000f",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000013",
+            "src_view_id": "output1"
+        },
+        "link413": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000015",
+            "src_view_id": "output0"
+        },
+        "link439": {
+            "dst_id": "11111111-1111-1111-1111-000000000010",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000a",
+            "src_view_id": "output0"
+        },
+        "link440": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link441": {
+            "dst_id": "11111111-1111-1111-1111-000000000013",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000010",
+            "src_view_id": "output0"
+        },
+        "link490": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link502": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link531": {
+            "dst_id": "11111111-1111-1111-1111-00000000000b",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000008",
+            "src_view_id": "output0"
+        },
+        "link533": {
+            "dst_id": "11111111-1111-1111-1111-00000000000c",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000012",
+            "src_view_id": "output1"
+        },
+        "link534": {
+            "dst_id": "11111111-1111-1111-1111-000000000012",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000b",
+            "src_view_id": "output0"
+        },
+        "link535": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000012",
+            "src_view_id": "output0"
+        },
+        "link536": {
+            "dst_id": "11111111-1111-1111-1111-000000000016",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "error0"
+        },
+        "link541": {
+            "dst_id": "11111111-1111-1111-1111-000000000017",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "error0"
+        },
+        "link544": {
+            "dst_id": "11111111-1111-1111-1111-000000000018",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "error0"
+        },
+        "link581": {
+            "dst_id": "11111111-1111-1111-1111-00000000000e",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000f",
+            "src_view_id": "output0"
+        },
+        "link582": {
+            "dst_id": "11111111-1111-1111-1111-000000000011",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000e",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "adyava@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": "Description : PriceDelta.CommerceCloud Pipeline for loading priceDelta from the Queue and generating Pricebooks XML for SFCC. This pipeline creates two Target Files ,one for the Regular products and other one for the Markdown Products. \n\nLast Updated By :  Ayushee \nLast Updated Date: 2017-07-14"
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {},
+        "output": {
+            "11111111-1111-1111-1111-000000000011_output1": {
+                "label": {
+                    "value": "Regular-Markdown Error Router - Valid Markdown Products"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000016_output0": {
+                "label": {
+                    "value": "Source SFTP Error - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000017_output0": {
+                "label": {
+                    "value": "Source SFTP Error - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000018_output0": {
+                "label": {
+                    "value": "XMLGen Error Mapper - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": [
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "pipeServiceName"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "Pricebook"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "xmlHeader"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "<?xml version='1.0' encoding='UTF-8'?> <pricebooks xmlns=\"http://www.demandware.com/xml/impex/pricebook/2006-10-31\">"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "xmlClosingTag"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "</price-tables></pricebook></pricebooks>"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "Errorsuffix"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "ErrorMsg"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {
+                    "error0": {
+                        "dx_int": 0,
+                        "dy_int": -1,
+                        "rot_int": 0
+                    }
+                },
+                "grid_x_int": 9,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {
+                    "error0": {
+                        "dx_int": 0,
+                        "dy_int": -1,
+                        "rot_int": 0
+                    }
+                },
+                "grid_x_int": 2,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {
+                    "error0": {
+                        "dx_int": 0,
+                        "dy_int": -1,
+                        "rot_int": 0
+                    }
+                },
+                "grid_x_int": 18,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 19,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 21,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
+                "grid_x_int": 22,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000009": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000000a": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000000b": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000000c": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 7,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000000d": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000000e": {
+                "error": {},
+                "grid_x_int": 15,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000000f": {
+                "error": {},
+                "grid_x_int": 14,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000010": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000011": {
+                "error": {},
+                "grid_x_int": 16,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000012": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000013": {
+                "error": {},
+                "grid_x_int": 12,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000014": {
+                "error": {},
+                "grid_x_int": 20,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000015": {
+                "error": {},
+                "grid_x_int": 17,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000016": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000017": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000018": {
+                "error": {},
+                "grid_x_int": 19,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000019": {
+                "error": {},
+                "grid_x_int": 23,
+                "grid_y_int": 6,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-binary-simpleread",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JMS File Reader"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "enableStaging": {
+                        "value": false
+                    },
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "filePath": {
+                        "expression": false,
+                        "value": "JMS_Source_File_2019-11-06_09-15-59 (1).xml"
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "retries": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    }
+                },
+                "view_serial": 103
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "continue"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "PRICEDELTA INITIAL MAPPING"
+                    },
+                    "notes": {
+                        "value": "In this snap we are taking all the input fields which are required to generate pricebookid (Brand_ID+LocationNbr+ CurrencyCode + \"_reg-price\" /\"_sale-price\") and other required fields as per the mapping in the target XML."
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['ebo:BrandID']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Brand"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['ebo:CountryCode']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$CountryCode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['ebo:CurrencyDesc']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$CountryDesc"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['ebo:CurrencyCode']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$CurrencyCode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['ebo:LocationNbr']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$LocationNbr"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['ebo:PriceChgStatusCode']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$PriceChgStatusCode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['ebo:Item']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Item"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-xmlparser",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "continue"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "XML Parser"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "SplitterExpression": {
+                        "value": null
+                    },
+                    "matchDataTypes": {
+                        "value": false
+                    },
+                    "namespaceContext": {
+                        "value": []
+                    },
+                    "schema": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "validate": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-xmlgenerator",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "continue"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "XML_CREATION_TARGET_SCHEMA_REGULAR_FILE"
+                    },
+                    "notes": {
+                        "value": "XML Generation Script per the XML Script provided"
+                    }
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "defaultValue": {
+                        "value": null
+                    },
+                    "editable_content": {
+                        "value": "<?xml version='1.0' encoding='UTF-8'?><pricebooks xmlns=\"http://www.demandware.com/xml/impex/pricebook/2006-10-31\"> #foreach($pricebook in $pricebooks.pricebook) <pricebook><header mode=\"$pricebook.header.at-mode\" pricebook-id=\"$pricebook.header.at-pricebook-id\"><currency>$pricebook.header.currency</currency><display-name xml:lang=\"$pricebook.header.display-name-lang\">$pricebook.header.display-name-value</display-name></header><price-tables><price-table product-id=\"$ProductId\"><online-from>$effectiveDate</online-from><amount quantity=\"1\">$Price</amount></price-table></price-tables></pricebook> #end </pricebooks>"
+                    },
+                    "escapeSpecialChars": {
+                        "value": false
+                    },
+                    "escapeXMLData": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "inboundSchema": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "rootElement": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "schemaXPath": {
+                        "value": null
+                    },
+                    "tableNSContext": {
+                        "value": []
+                    },
+                    "useDefaultValue": {
+                        "value": false
+                    },
+                    "validate": {
+                        "value": false
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-flow-union",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Union"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {},
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "CONVERSION_MAPPER"
+                    },
+                    "notes": {
+                        "value": "Transfer content of the generated XML into $Content"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$xml.substring($xml.indexOf('<price-tables>')+14, $xml.lastIndexOf('<\\/price-tables>'))"
+                                        },
+                                        "targetPath": {
+                                            "value": "$content"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.Pricebookid"
+                                        },
+                                        "targetPath": {
+                                            "value": "$['content-disposition']"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$xml.substring($xml.indexOf('<pricebook>')+11, $xml.lastIndexOf('</header>')+9)"
+                                        },
+                                        "targetPath": {
+                                            "value": "$['content-type']"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "CONVERSION_MAPPER"
+                    },
+                    "notes": {
+                        "value": "Transfer content of the generated XML into $Content"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "((_xmlHeader + $content.replaceAll(\"</header>\",\"</header><price-tables>\") + _xmlClosingTag).replaceAll(\"</price-table><pricebook><header\",\"</price-table></price-tables><pricebook><header\")).replaceAll(\"</price-tables><pricebook>\",\"</price-tables></pricebook><pricebook>\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$content"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-snaps-transform-documenttobinary",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Document to Binary"
+                    },
+                    "notes": {
+                        "value": "Converts into Binary format for writing into a XML file"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "codec": {
+                        "value": "DOCUMENT"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Ensure Document as an Array"
+                    },
+                    "notes": {
+                        "value": "In this snap we are taking all the input fields which are required to generate pricebookid (Brand_ID+LocationNbr+ CurrencyCode + \"_reg-price\" /\"_sale-price\") and other required fields as per the mapping in the target XML."
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$DocumentRoot.Document  instanceof Array==true? sl.ensureArray(jsonPath($, \"$DocumentRoot.Document[*].Data['ebo:EBO']['ebo:EBOPayload']['ebo:Price']\")):sl.ensureArray($DocumentRoot.Document.Data['ebo:EBO']['ebo:EBOPayload']['ebo:Price'])"
+                                        },
+                                        "targetPath": {
+                                            "value": "$['ebo:EBO']['ebo:EBOPayload']['ebo:Price']"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000009": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000009",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$DocumentRoot!=null"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000a": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-00000000000a",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter on Location"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$LocationNbr==\"4087\"||$LocationNbr==\"4090\"||$LocationNbr==\"4310\"||$LocationNbr==\"4311\""
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000b": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-00000000000b",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": []
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$['ebo:EBO']['ebo:EBOPayload']['ebo:Price']"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000c": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-00000000000c",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter - Multi"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": []
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$splitValue"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000d": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-00000000000d",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter - Split At Item Level"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": true
+                    },
+                    "includePaths": {
+                        "value": []
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$Item"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000e": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000000e",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper Concatenation"
+                    },
+                    "notes": {
+                        "value": "This Snap is used  for generating PricebookId(BrandID + CountryCode + CurrencyCode + \"_reg-price\" /\"_sale-price\"), Display Name,parent,online_flag etc parameters for Target file creation"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "($Brand == \"1\" ? \"gp\" : ($Brand == \"2\" ? \"br\" : NULL)) + \"_\"+($LocationNbr== 4087 || $LocationNbr==4090 ? \"uk\":($LocationNbr== 4310 || $LocationNbr==4311 ? \"eu\":null))+\"_\"+ $CurrencyCode + \"_\"+( $PriceChgStatusCode == \"R\" ?  \"reg-price\":( $PriceChgStatusCode == \"M\" ?\"sale-price\" : NULL))"
+                                        },
+                                        "targetPath": {
+                                            "value": "$pricebooks.pricebook[*].header['@pricebook-id']"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "( $PriceChgStatusCode == \"M\" ? ($Brand == \"1\" ? \"gp\" : ($Brand == \"2\" ? \"br\" : NULL)) + \"_\"+ ($LocationNbr== 4087 || $LocationNbr==4090 ? \"uk\":($LocationNbr== 4310 || $LocationNbr==4311 ? \"eu\":null))+\"_\"+ $CurrencyCode + \"_reg-price\":\"\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$pricebooks.pricebook[*].header.parent"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "true"
+                                        },
+                                        "targetPath": {
+                                            "value": "$pricebooks.pricebook[*].header['online-flag']"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"x-default\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$pricebooks.pricebook[*].header.display-name-lang"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$CurrencyCode"
+                                        },
+                                        "targetPath": {
+                                            "value": "$pricebooks.pricebook[*].header.currency"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Brand"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Brand"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$CountryCode==\"FR\"?\"EU\":($CountryCode==\"uk\"?\"UK\":\"\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$CountryCode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$PriceChgStatusCode == \"R\" ? \"Regular Prices\":($PriceChgStatusCode == \"M\"? \"Sale Prices\":null)"
+                                        },
+                                        "targetPath": {
+                                            "value": "$pricebooks.pricebook[*].header.display-name-value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$CurrencyCode"
+                                        },
+                                        "targetPath": {
+                                            "value": "$CurrencyCode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$PriceChgStatusCode"
+                                        },
+                                        "targetPath": {
+                                            "value": "$PriceChgStatusCode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "(($Brand==\"1\"||$Brand==\"2\") && ($PriceChgStatusCode==\"R\"||$PriceChgStatusCode==\"M\") && $CurrencyCode!=null)?1:0"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Validation_flag"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "($Brand==\"1\"||$Brand==\"2\") ? null:\"Brand is not having value  1 or 2\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Error_Reason_Brand"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$CurrencyCode==NULL? \"Currencycode is  null\":null"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Error_Reason_CurrencyCode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "($PriceChgStatusCode==\"R\"||$PriceChgStatusCode==\"M\")? null:\"Pricechgstatuscode is not  having value R or M\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Error_Reason_PriceChgStatusCode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "($Brand == \"1\" ? \"gp\" : ($Brand == \"2\" ? \"br\" : NULL)) + \"_\"+($LocationNbr== 4087 || $LocationNbr==4090 ? \"uk\":($LocationNbr== 4310 || $LocationNbr==4311 ? \"eu\":null))+\"_\"+ $CurrencyCode + \"_\"+( $PriceChgStatusCode == \"R\" ?  \"reg-price\":( $PriceChgStatusCode == \"M\" ?\"sale-price\" : NULL))"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pricebookid"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasPath('Item.ebo:ItemSKUID')&& $Item['ebo:ItemSKUID']||$['ebo:ItemSKUID']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ProductId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasPath('Item.ebo:PriceAmt')&& $Item['ebo:PriceAmt']||$['ebo:PriceAmt']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Price"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasPath('Item.ebo:EffectiveDate')&& $Item['ebo:EffectiveDate']||$['ebo:EffectiveDate']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$EffectiveDate"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "($LocationNbr== 4087 || $LocationNbr==4090 ? \"uk\":($LocationNbr== 4310 || $LocationNbr==4311 ? \"eu\":null))"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Country"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$LocationNbr"
+                                        },
+                                        "targetPath": {
+                                            "value": "$LocationNbr"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasPath('Item.ebo:PriceChgId')&& $Item['ebo:PriceChgId']||$['ebo:PriceChgId']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$['ebo:PriceChgId']"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasPath('Item.ebo:EffectiveDate')&& Date.parse($Item['ebo:EffectiveDate'])||Date.parse($['ebo:EffectiveDate'])"
+                                        },
+                                        "targetPath": {
+                                            "value": "$effectiveDate"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000f": {
+            "class_id": "com-snaplogic-snaps-flow-union",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-00000000000f",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Merge Single & Multi SKU Feed"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {},
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000010": {
+            "class_id": "com-snaplogic-snaps-transform-structuraltransform",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000010",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "RESTRUCTURING_SOURCE_TARGET_SCHEMA"
+                    },
+                    "notes": {
+                        "value": "Rearranging the XML as per Target Schema"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "mappingTable": {
+                        "value": [
+                            {
+                                "operation": {
+                                    "value": "move"
+                                },
+                                "sourcePath": {
+                                    "value": "$PriceChgStatusCode"
+                                },
+                                "targetPath": {
+                                    "value": "$PriceChgStatusCode"
+                                }
+                            },
+                            {
+                                "operation": {
+                                    "value": "move"
+                                },
+                                "sourcePath": {
+                                    "value": "$Brand"
+                                },
+                                "targetPath": {
+                                    "value": "$Brand"
+                                }
+                            },
+                            {
+                                "operation": {
+                                    "value": "move"
+                                },
+                                "sourcePath": {
+                                    "value": "$CountryDesc"
+                                },
+                                "targetPath": {
+                                    "value": "$CountryDesc"
+                                }
+                            },
+                            {
+                                "operation": {
+                                    "value": "move"
+                                },
+                                "sourcePath": {
+                                    "value": "$CurrencyCode"
+                                },
+                                "targetPath": {
+                                    "value": "$CurrencyCode"
+                                }
+                            },
+                            {
+                                "operation": {
+                                    "value": "move"
+                                },
+                                "sourcePath": {
+                                    "value": "$CountryCode"
+                                },
+                                "targetPath": {
+                                    "value": "$CountryCode"
+                                }
+                            },
+                            {
+                                "operation": {
+                                    "value": "move"
+                                },
+                                "sourcePath": {
+                                    "value": "$LocationNbr"
+                                },
+                                "targetPath": {
+                                    "value": "$LocationNbr"
+                                }
+                            },
+                            {
+                                "operation": {
+                                    "value": "move"
+                                },
+                                "sourcePath": {
+                                    "value": "$Item"
+                                },
+                                "targetPath": {
+                                    "value": "$Item"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": "None - new map"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000011": {
+            "class_id": "com-snaplogic-snaps-flow-router",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000011",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Regular-Markdown Error Router"
+                    },
+                    "notes": {
+                        "value": "Router to segregate the  VALID and INVALID messages from the Queue. Regular products will be routed to Regular_pipeline channel and Markdown products will be routed to Markdown products channel."
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "Valid Regular Products"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "Valid Markdown Products"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "firstMatch": {
+                        "value": false
+                    },
+                    "persistence": {
+                        "value": "No Cache"
+                    },
+                    "routes": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$Validation_flag == 1 && $PriceChgStatusCode==\"R\" && $Price!=0.01"
+                                },
+                                "outputViewName": {
+                                    "value": "Valid Regular Products"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 103
+            }
+        },
+        "11111111-1111-1111-1111-000000000012": {
+            "class_id": "com-snaplogic-snaps-flow-router",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000012",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Router"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "Single record"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "Multiple records"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "firstMatch": {
+                        "value": false
+                    },
+                    "persistence": {
+                        "value": "No Cache"
+                    },
+                    "routes": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$.hasOwnProperty(\"['@ebo:ActionTypeCode']\") == true && $['@ebo:ActionTypeCode'] != null && $['@ebo:ActionTypeCode'] != \"\""
+                                },
+                                "outputViewName": {
+                                    "value": "Single record"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$.hasOwnProperty(\"['@ebo:ActionTypeCode']\") == false"
+                                },
+                                "outputViewName": {
+                                    "value": "Multiple records"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000013": {
+            "class_id": "com-snaplogic-snaps-flow-router",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000013",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Router - Split Single & Multi SKU"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "Multi Item"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "Single Item"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "firstMatch": {
+                        "value": false
+                    },
+                    "routes": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$Item instanceof Array==true"
+                                },
+                                "outputViewName": {
+                                    "value": "Multi Item"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$Item instanceof Array==false"
+                                },
+                                "outputViewName": {
+                                    "value": "Single Item"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000014": {
+            "class_id": "com-snaplogic-snaps-script-script",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000014",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Script - Concatenate all products"
+                    },
+                    "notes": {
+                        "value": "Javascript to append all products together for writing to a single file.  The input to this script has each master product in it's own document which would result in multiple file operations.  This output from the script is the SFCC XML structure.  \n\nThe script performs the following:\n1. Writes the XML header\n2. Loops through all input documents writing each to the output\n3. Writes XML closing tag."
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "editable_content": {
+                        "value": "// Ensure compatibility with both JDK 7 and 8 JSR-223 Script Engines\ntry { load(\"nashorn:mozilla_compat.js\"); } catch(e) { }\n\n// Import the interface required by the Script snap.\nimportPackage(com.snaplogic.scripting.language);\n\n// Import the Java utility classes.\nimportPackage(java.util);\n\n/**\n * Create an object that implements the methods defined by the \"ScriptHook\"\n * interface.  We'll be passing this object to the constructor for the\n * ScriptHook interface.\n */\nvar impl = {\n    /*\n     * These variables (input, output, error, log) are defined by the\n     * ExecuteScript snap when evaluating this script.\n     */\n    input : input,\n    output : output,\n    error : error,\n    log : log,\n\n    /**\n     * The \"execute()\" method is called once when the pipeline is started\n     * and allowed to process its inputs or just send data to its outputs.\n     *\n     * Exceptions are automatically caught and sent to the error view.\n     */\n    execute : function () {\n       this.log.info(\"Executing Transform Script\");\n       if (this.input.hasNext()) \n       {\n       //Declare file variable starting with XML header.  The xml contents will be appeneded in while loop.\n       var strFullFile=\"\"; \n       var wrapper = new java.util.HashMap();\n       var Prev_Pricebookid;\n       var Current_PriceBookId;\n        while (this.input.hasNext()) {\n            try{\n                // Read the next document, wrap it in a map and write out the wrapper\n                var doc = this.input.next();\n                Current_PriceBookId = doc['content-disposition'];\n                \n                if (Prev_Pricebookid == Current_PriceBookId) \n                {\n                strFullFile = strFullFile + doc.content;\n                }\n                else\n                {\n                strFullFile = strFullFile + \"<pricebook>\"+doc['content-type'];\n                strFullFile = strFullFile + doc.content;\n                }\n                \n                this.log.info(\"Transform Script finished\");\n                Prev_Pricebookid = Current_PriceBookId;\n                            \n                }\n            catch(err) {\n                var wrapper = new java.util.HashMap();\n                wrapper.put(\"errorMsg\", err);\n                this.log.error(err);\n                this.error.write(wrapper);\n            }\n        }\n        wrapper.put(\"content\", strFullFile);\n        this.output.write(strFullFile, wrapper);\n        }\n    }\n};\n\n/**\n * The Script Snap will look for a ScriptHook object in the \"hook\"\n * variable.  The snap will then call the hook's \"execute\" method.\n */\nvar hook = new com.snaplogic.scripting.language.ScriptHook(impl);"
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "language": {
+                        "value": "Javascript"
+                    },
+                    "script": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000015": {
+            "class_id": "com-snaplogic-snaps-transform-sort",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000015",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Sort"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "maxMemoryPercentage": {
+                        "value": 10
+                    },
+                    "nullGreater": {
+                        "value": false
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "sortOrder": {
+                        "value": "ascending"
+                    },
+                    "sortPaths": {
+                        "value": [
+                            {
+                                "sortPath": {
+                                    "value": "$Pricebookid"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000016": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000016",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Source SFTP Error"
+                    },
+                    "notes": {
+                        "value": "Description: Source SFTP Error Mapper to display reason for Failing at Source Connection"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "Date.now()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Create TimeStamp"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\" The Snap has failed with following Reason: \"+ $reason + \". Snap Details are provided as : \"+$snap_details.label+ \". Resolution you can opt is : \"+$resolution"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Details"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000017": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000017",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Source SFTP Error"
+                    },
+                    "notes": {
+                        "value": "Description: Source SFTP Error Mapper to display reason for Failing at Source Connection"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "Date.now()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Create TimeStamp"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\" The Snap has failed with following Reason: \"+ $reason + \". Snap Details are provided as : \"+$snap_details.label+ \". Resolution you can opt is : \"+$resolution"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Details"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000018": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000018",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "XMLGen Error Mapper"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "Date.now()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Create TimeStamp"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\" The Snap has failed with following Reason: \"+ $reason + \". Snap Details are provided as : \"+$snap_details.label+ \". Resolution you can opt is : \"+$resolution"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Details"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000019": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000019",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "ignore"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Regular XML"
+                    },
+                    "notes": {
+                        "value": "XML FILE PRICEDELTA"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {},
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "createDir": {
+                        "value": false
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Execute only"
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": "_pipeServiceName+\"_Regular_\"+pipe.startTime.toLocaleDateTimeString('{\"format\":\"yyyy-MM-dd_HH-mm-ss\"}') + \".xml\""
+                    },
+                    "flushIntervalKb": {
+                        "value": -1
+                    },
+                    "retries": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "validate": {
+                        "value": false
+                    },
+                    "writeEmptyFile": {
+                        "value": false
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 101
+            }
+        }
+    }
+}

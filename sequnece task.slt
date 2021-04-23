@@ -1,0 +1,35 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "sequnece task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "jqOGtXzTGRvKxKjAhCnvfCUSwiuxLxsJ",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "intialvalue": "744",
+            "noofdocuments": "745"
+        },
+        "pipeline_path": "sequnece",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {
+        "start_date": "2021-03-22",
+        "start_time": "11:16:31",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger": {
+        "start_date": "2021-03-22",
+        "start_time": "11:16:31",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

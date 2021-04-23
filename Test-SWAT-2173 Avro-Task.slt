@@ -1,0 +1,73 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Test-SWAT-2173 Avro-Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "SiEGrI22JeVJhekyTbB9zHhqdIpzLa4J",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "Copyof SWAT-2173 Avro",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "cron",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "30",
+                "month": "*"
+            },
+            "ends": {
+                "end_date": "2021-01-29",
+                "end_time": "19:00:00",
+                "occurrences": null,
+                "when": "on"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2021-01-29",
+        "start_time": "08:36:51",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "cron",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "30",
+                "month": "*"
+            },
+            "ends": {
+                "end_date": "2021-01-29",
+                "end_time": "19:00:00",
+                "occurrences": null,
+                "when": "on"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2021-01-29",
+        "start_time": "08:36:51",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

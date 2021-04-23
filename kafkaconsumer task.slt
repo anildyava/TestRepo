@@ -1,0 +1,69 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "kafkaconsumer task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "execution_timeout": 3,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "i7v1a9kbeQEPjOFY9W7Fr8Zdj2RZAjFd",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "kafkaconsumer",
+        "snaplex_path": null
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 5,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2020-08-18",
+        "start_time": "12:20:34",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 5,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2020-08-18",
+        "start_time": "12:20:34",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

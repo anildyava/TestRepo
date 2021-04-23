@@ -1,0 +1,31 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "ultrajoin task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": "",
+        "job_type": "standard",
+        "llfeed_token": "7oEMSuBSnuSs6JWiJ3SDyM0K0sZ8Yz9v",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "ultrajoin",
+        "snaplex_path": null,
+        "watchdog": {
+            "instances": 1,
+            "per": "PLEX"
+        }
+    },
+    "schedule": {
+        "always_on": true
+    },
+    "trigger": {
+        "always_on": true
+    },
+    "trigger_type": "ScheduleTrigger"
+}

@@ -1,0 +1,31 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "PEGA_COI-Interface-Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "0PWSI7TLP4evDJoJDVDLIafmJWSgmS3a",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "PEGA_COI-Interface",
+        "snaplex_path": "AnilGroundPlex"
+    },
+    "schedule": {
+        "start_date": "2021-03-01",
+        "start_time": "14:57:35",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger": {
+        "start_date": "2021-03-01",
+        "start_time": "14:57:35",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

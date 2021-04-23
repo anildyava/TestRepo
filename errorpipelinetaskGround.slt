@@ -1,0 +1,23 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "errorpipelinetaskGround",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "HjMf1O7Ijr8PWIQsVEi8v1cBcbrzth7K",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "errorpipeline",
+        "snaplex_path": "AnilGroundPlex"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

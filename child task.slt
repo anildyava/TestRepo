@@ -1,0 +1,34 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "child task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "rmk8fOUs7ooIsLShJfPnoepKctFn1yyw",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "path": "path"
+        },
+        "pipeline_path": "child",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {
+        "start_date": "2021-03-11",
+        "start_time": "15:41:32",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger": {
+        "start_date": "2021-03-11",
+        "start_time": "15:41:32",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

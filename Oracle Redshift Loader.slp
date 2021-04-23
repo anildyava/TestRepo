@@ -2,11 +2,11 @@
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
     "link_map": {
-        "link100": {
+        "link101": {
             "dst_id": "11111111-1111-1111-1111-000000000001",
-            "dst_view_id": "input0",
+            "dst_view_id": "inputRows",
             "src_id": "11111111-1111-1111-1111-000000000000",
-            "src_view_id": "output0"
+            "src_view_id": "outputRows"
         }
     },
     "property_map": {
@@ -17,7 +17,7 @@
         },
         "info": {
             "author": {
-                "value": "adyava@snaplogic.com"
+                "value": "khe@snaplogic.com"
             },
             "label": {},
             "notes": {
@@ -31,16 +31,7 @@
             }
         },
         "input": {},
-        "output": {
-            "11111111-1111-1111-1111-000000000001_output0": {
-                "label": {
-                    "value": "JSON Parser - output0"
-                },
-                "view_type": {
-                    "value": "document"
-                }
-            }
-        },
+        "output": {},
         "settings": {
             "error_param_table": {
                 "value": []
@@ -62,8 +53,8 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 1,
-                "grid_y_int": 1,
+                "grid_x_int": 3,
+                "grid_y_int": 2,
                 "input": {},
                 "output": {},
                 "rot_int": 0,
@@ -71,8 +62,8 @@
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 2,
-                "grid_y_int": 1,
+                "grid_x_int": 4,
+                "grid_y_int": 2,
                 "input": {},
                 "output": {},
                 "rot_int": 0,
@@ -85,16 +76,11 @@
     },
     "snap_map": {
         "11111111-1111-1111-1111-000000000000": {
-            "class_id": "com-snaplogic-snaps-binary-simpleread",
-            "class_version": 1,
+            "class_id": "com-snaplogic-snaps-oracle-select",
+            "class_version": 3,
             "instance_id": "11111111-1111-1111-1111-000000000000",
             "property_map": {
-                "account": {
-                    "account_ref": {
-                        "expression": false,
-                        "value": {}
-                    }
-                },
+                "account": {},
                 "error": {
                     "error0": {
                         "label": {
@@ -110,45 +96,55 @@
                 },
                 "info": {
                     "label": {
-                        "value": "File Reader"
+                        "value": "Oracle - Select"
                     },
                     "notes": {
                         "value": null
                     }
                 },
                 "output": {
-                    "output0": {
+                    "outputRows": {
                         "label": {
-                            "value": "output0"
+                            "value": "rows"
                         },
                         "view_type": {
-                            "value": "binary"
+                            "value": "document"
                         }
                     }
                 },
                 "settings": {
-                    "executeDuringPreview": {
-                        "value": true
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    },
-                    "filePath": {
+                    "limitOffset": {
                         "expression": false,
-                        "value": ""
+                        "value": null
                     },
-                    "preventURLEncoding": {
-                        "value": false
+                    "limitRows": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "orderBy": {
+                        "value": []
+                    },
+                    "schemaName": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "whereClause": {
+                        "value": null
                     }
                 },
                 "view_serial": 100
             }
         },
         "11111111-1111-1111-1111-000000000001": {
-            "class_id": "com-snaplogic-snaps-transform-jsonparser",
+            "class_id": "com-snaplogic-snaps-redshift-bulkload",
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000001",
             "property_map": {
+                "account": {},
                 "error": {
                     "error0": {
                         "label": {
@@ -164,23 +160,16 @@
                 },
                 "info": {
                     "label": {
-                        "value": "JSON Parser"
+                        "value": "Redshift - Bulk Load"
+                    },
+                    "notes": {
+                        "value": null
                     }
                 },
                 "input": {
-                    "input0": {
+                    "inputRows": {
                         "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "binary"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
+                            "value": "rows"
                         },
                         "view_type": {
                             "value": "document"
@@ -188,14 +177,46 @@
                     }
                 },
                 "settings": {
-                    "allowNonStandardJson": {
+                    "additionalOptions": {
+                        "value": null
+                    },
+                    "createTable": {
+                        "value": false
+                    },
+                    "disableCompression": {
+                        "value": false
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Execute only"
+                    },
+                    "invalidChars": {
                         "value": true
                     },
-                    "arrayElementsAsDocuments": {
+                    "maxError": {
+                        "value": 0
+                    },
+                    "schemaName": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "truncate": {
+                        "value": false
+                    },
+                    "truncateColumns": {
                         "value": true
                     },
-                    "jsonFilterPath": {
-                        "value": ""
+                    "updateStats": {
+                        "value": false
+                    },
+                    "vacuum": {
+                        "value": false
                     }
                 },
                 "view_serial": 100

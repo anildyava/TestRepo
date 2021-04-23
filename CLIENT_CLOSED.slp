@@ -34,7 +34,7 @@
         "output": {
             "11111111-1111-1111-1111-000000000001_output0": {
                 "label": {
-                    "value": "JSON Parser - output0"
+                    "value": "Script - output0"
                 },
                 "view_type": {
                     "value": "document"
@@ -62,21 +62,27 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 1,
+                "grid_x_int": 2,
                 "grid_y_int": 1,
+                "index": null,
                 "input": {},
                 "output": {},
+                "recommendation_id": null,
                 "rot_int": 0,
-                "rot_tail_int": 0
+                "rot_tail_int": 0,
+                "source": "snap catagory"
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 2,
+                "grid_x_int": 3,
                 "grid_y_int": 1,
+                "index": null,
                 "input": {},
                 "output": {},
+                "recommendation_id": null,
                 "rot_int": 0,
-                "rot_tail_int": 0
+                "rot_tail_int": 0,
+                "source": "snap catagory"
             }
         },
         "pan_x_num": 0,
@@ -85,16 +91,10 @@
     },
     "snap_map": {
         "11111111-1111-1111-1111-000000000000": {
-            "class_id": "com-snaplogic-snaps-binary-simpleread",
-            "class_version": 1,
+            "class_id": "com-snaplogic-snaps-transform-jsongenerator",
+            "class_version": 2,
             "instance_id": "11111111-1111-1111-1111-000000000000",
             "property_map": {
-                "account": {
-                    "account_ref": {
-                        "expression": false,
-                        "value": {}
-                    }
-                },
                 "error": {
                     "error0": {
                         "label": {
@@ -110,7 +110,7 @@
                 },
                 "info": {
                     "label": {
-                        "value": "File Reader"
+                        "value": "JSON Generator"
                     },
                     "notes": {
                         "value": null
@@ -122,31 +122,27 @@
                             "value": "output0"
                         },
                         "view_type": {
-                            "value": "binary"
+                            "value": "document"
                         }
                     }
                 },
                 "settings": {
-                    "executeDuringPreview": {
+                    "arrayElementsAsDocuments": {
                         "value": true
+                    },
+                    "editable_content": {
+                        "value": "[{\"msg\":\"Hello world!\"}]"
                     },
                     "execution_mode": {
                         "value": "Validate & Execute"
-                    },
-                    "filePath": {
-                        "expression": false,
-                        "value": ""
-                    },
-                    "preventURLEncoding": {
-                        "value": false
                     }
                 },
                 "view_serial": 100
             }
         },
         "11111111-1111-1111-1111-000000000001": {
-            "class_id": "com-snaplogic-snaps-transform-jsonparser",
-            "class_version": 1,
+            "class_id": "com-snaplogic-snaps-script-script",
+            "class_version": 2,
             "instance_id": "11111111-1111-1111-1111-000000000001",
             "property_map": {
                 "error": {
@@ -164,7 +160,10 @@
                 },
                 "info": {
                     "label": {
-                        "value": "JSON Parser"
+                        "value": "Script"
+                    },
+                    "notes": {
+                        "value": null
                     }
                 },
                 "input": {
@@ -173,7 +172,7 @@
                             "value": "input0"
                         },
                         "view_type": {
-                            "value": "binary"
+                            "value": "document"
                         }
                     }
                 },
@@ -188,14 +187,21 @@
                     }
                 },
                 "settings": {
-                    "allowNonStandardJson": {
-                        "value": true
+                    "editable_content": {
+                        "value": "# Import the interface required by the Script snap.\nfrom com.snaplogic.scripting.language import ScriptHook\nimport java.util\nimport time\n\nclass TransformScript(ScriptHook):\n    def __init__(self, input, output, error, log):\n        self.input = input\n        self.output = output\n        self.error = error\n        self.log = log\n\n    # The \"execute()\" method is called once when the pipeline is started\n    # and allowed to process its inputs or just send data to its outputs.\n    def execute(self):\n        self.log.info(\"Executing Transform script\")\n        while self.input.hasNext():\n            try:\n                # Read the next document, wrap it in a map and write out the wrapper\n                time.sleep(1200)\n                in_doc = self.input.next()\n                wrapper = java.util.HashMap()\n                wrapper['original'] = in_doc\n\n                self.output.write(in_doc, wrapper)\n            except Exception as e:\n                errWrapper = {\n                    'errMsg' : str(e.args)\n                }\n                self.log.error(\"Error in python script\")\n                self.error.write(errWrapper)\n\n        self.log.info(\"Finished executing the Transform script\")\n\n# The Script Snap will look for a ScriptHook object in the \"hook\"\n# variable.  The snap will then call the hook's \"execute\" method.\nhook = TransformScript(input, output, error, log)"
                     },
-                    "arrayElementsAsDocuments": {
-                        "value": true
+                    "executable_during_suggest": {
+                        "value": false
                     },
-                    "jsonFilterPath": {
-                        "value": ""
+                    "execution_mode": {
+                        "value": "Execute only"
+                    },
+                    "language": {
+                        "value": "Python"
+                    },
+                    "script": {
+                        "expression": false,
+                        "value": null
                     }
                 },
                 "view_serial": 100

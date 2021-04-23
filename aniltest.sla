@@ -1,0 +1,27 @@
+{
+    "class_id": "com-snaplogic-snaps-rest-restbasicauthaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "SL-Support"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "aniltest"
+            }
+        },
+        "settings": {
+            "password": {
+                "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                "sym_iv": "BJNYqkvp7eh2ZPw/F2FSgA==",
+                "sym_key": "uzEZPyDO4NaG8N3AcL6YxhQC/Vtdx0la+WSOs/MDH9bQMYb8V7w14TMJSPeVhdsv0n7rpwWliMOfu7SU+fRQXX2ksA8q50Yrl1wqMX0w8i5RZsvgEpkTBdmTFTwmXmUzdzCLtSL/BG9BVgPqyi4cWd1xDbJv9Raj6boo1V4oUJeLfArOPPPrYq7KOWIv1QHTkDbTJbzHHGToqn7Ocm4MQo26lNvFRkk9g29JeA1bRXrNG6e1nDUjPaHamC5pJxUru28NHYm42mHrXAssCgqa+Rs4M/5RS9ceQvqioVSSd7kmqb8ht1jhZJmy3jsoVGaR2KhtJwoPrdSmUwRfY3Mk2w==",
+                "value": "aDOUVIoDgPVWUAWp+SzpDQ=="
+            },
+            "username": {
+                "value": "adyava@snaplogic.com"
+            }
+        },
+        "view_serial": 100
+    }
+}

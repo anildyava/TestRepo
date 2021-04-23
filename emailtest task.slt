@@ -1,0 +1,31 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "emailtest task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "yv2oxuv3XlDHCcbvR2Y1lXLRSw5Uq1k8",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "emailtest",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {
+        "start_date": "2021-03-11",
+        "start_time": "15:52:33",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger": {
+        "start_date": "2021-03-11",
+        "start_time": "15:52:33",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

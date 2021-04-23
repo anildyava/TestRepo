@@ -1,0 +1,73 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "SWAT-2833-TaskTest",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "hDfBf9lzLxgACnEumjm5nQKwjyRXNlux",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "SWAT-2833",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "end_date": "2021-01-29",
+                "end_time": "19:00:00",
+                "occurrences": null,
+                "when": "on"
+            },
+            "every": 10,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2021-01-29",
+        "start_time": "08:34:28",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "end_date": "2021-01-29",
+                "end_time": "19:00:00",
+                "occurrences": null,
+                "when": "on"
+            },
+            "every": 10,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2021-01-29",
+        "start_time": "08:34:28",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

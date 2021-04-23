@@ -1,0 +1,508 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link128": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "adyava@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": "Reusable"
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": "Get and parse a captured parameter for a given ruuid"
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000002_input0": {
+                "label": {
+                    "value": "REST Get - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000002_output0": {
+                "label": {
+                    "value": "REST Get - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": [
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "key": {
+                            "value": "projectPath"
+                        },
+                        "value": {
+                            "value": "/snaplogic/eddy/pipelineMonitorAPI"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "key": {
+                            "value": "label"
+                        },
+                        "value": {
+                            "value": "Job-DoSomething"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "key": {
+                            "value": "state"
+                        },
+                        "value": {
+                            "value": "Completed"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "key": {
+                            "value": "last_hours"
+                        },
+                        "value": {
+                            "value": "72"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "key": {
+                            "value": "limit"
+                        },
+                        "value": {
+                            "value": "2"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-rest-get",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "account": {},
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Org endpoint"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "connTimeout": {
+                        "value": 30
+                    },
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "followRedirects": {
+                        "value": true
+                    },
+                    "hasNext": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "header": {
+                        "value": []
+                    },
+                    "nextUrl": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "paginationInterval": {
+                        "value": 0
+                    },
+                    "processArray": {
+                        "value": false
+                    },
+                    "queryParams": {
+                        "value": [
+                            {
+                                "queryParam": {
+                                    "value": "project_path"
+                                },
+                                "queryParamValue": {
+                                    "expression": true,
+                                    "value": "_projectPath"
+                                }
+                            },
+                            {
+                                "queryParam": {
+                                    "value": "pipe_name"
+                                },
+                                "queryParamValue": {
+                                    "expression": true,
+                                    "value": "_label"
+                                }
+                            },
+                            {
+                                "queryParam": {
+                                    "value": "state"
+                                },
+                                "queryParamValue": {
+                                    "expression": true,
+                                    "value": "_state"
+                                }
+                            },
+                            {
+                                "queryParam": {
+                                    "value": "last_hours"
+                                },
+                                "queryParamValue": {
+                                    "expression": true,
+                                    "value": "_last_hours"
+                                }
+                            },
+                            {
+                                "queryParam": {
+                                    "value": "limit"
+                                },
+                                "queryParamValue": {
+                                    "expression": true,
+                                    "value": "_limit"
+                                }
+                            }
+                        ]
+                    },
+                    "rawData": {
+                        "value": false
+                    },
+                    "responseEntityType": {
+                        "value": "DEFAULT"
+                    },
+                    "retry": {
+                        "value": 5
+                    },
+                    "retryInterval": {
+                        "value": 3
+                    },
+                    "serviceUrl": {
+                        "expression": true,
+                        "value": "\"https://elastic.snaplogic.com/api/1/rest/public/runtime/\"+_projectPath.split(\"/\")[1]"
+                    },
+                    "showAllHeaders": {
+                        "value": false
+                    },
+                    "timeout": {
+                        "value": 900
+                    },
+                    "trustAllCerts": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ruuidList"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$entity.response_map.entries.map(x => x.id)"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ruuids"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-rest-get",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "REST Get"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "connTimeout": {
+                        "value": 30
+                    },
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "followRedirects": {
+                        "value": true
+                    },
+                    "hasNext": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "header": {
+                        "value": [
+                            {
+                                "headerKey": {
+                                    "expression": false,
+                                    "value": "Authorization"
+                                },
+                                "headerValue": {
+                                    "expression": false,
+                                    "value": "Bearer HjMf1O7Ijr8PWIQsVEi8v1cBcbrzth7K"
+                                }
+                            }
+                        ]
+                    },
+                    "nextUrl": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "normalizeUri": {
+                        "value": true
+                    },
+                    "paginationInterval": {
+                        "value": 0
+                    },
+                    "processArray": {
+                        "value": false
+                    },
+                    "queryParams": {
+                        "value": []
+                    },
+                    "rawData": {
+                        "value": false
+                    },
+                    "responseEntityType": {
+                        "value": "DEFAULT"
+                    },
+                    "retry": {
+                        "value": 5
+                    },
+                    "retryInterval": {
+                        "value": 3
+                    },
+                    "retryPolicy": {
+                        "value": "Connection errors"
+                    },
+                    "serviceUrl": {
+                        "expression": false,
+                        "value": "https://gaian-lap397.gaian.com:8081/api/1/rest/feed/SL-Support/projects/AnilDyava/errorpipelinetaskGround"
+                    },
+                    "showAllHeaders": {
+                        "value": false
+                    },
+                    "timeout": {
+                        "value": 900
+                    },
+                    "trustAllCerts": {
+                        "value": true
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

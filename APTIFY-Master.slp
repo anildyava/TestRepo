@@ -2,11 +2,11 @@
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
     "link_map": {
-        "link100": {
+        "link124": {
             "dst_id": "11111111-1111-1111-1111-000000000001",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000000",
-            "src_view_id": "output0"
+            "src_view_id": "output101"
         }
     },
     "property_map": {
@@ -17,7 +17,7 @@
         },
         "info": {
             "author": {
-                "value": "adyava@snaplogic.com"
+                "value": "munish.singla@aseit.com.au"
             },
             "label": {},
             "notes": {
@@ -34,7 +34,7 @@
         "output": {
             "11111111-1111-1111-1111-000000000001_output0": {
                 "label": {
-                    "value": "JSON Parser - output0"
+                    "value": "Execute Aptify-Child - output0"
                 },
                 "view_type": {
                     "value": "document"
@@ -62,21 +62,27 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 1,
+                "grid_x_int": 2,
                 "grid_y_int": 1,
+                "index": null,
                 "input": {},
                 "output": {},
+                "recommendation_id": null,
                 "rot_int": 0,
-                "rot_tail_int": 0
+                "rot_tail_int": 0,
+                "source": "snap catagory"
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 2,
+                "grid_x_int": 3,
                 "grid_y_int": 1,
+                "index": null,
                 "input": {},
                 "output": {},
+                "recommendation_id": null,
                 "rot_int": 0,
-                "rot_tail_int": 0
+                "rot_tail_int": 0,
+                "source": "snap catagory"
             }
         },
         "pan_x_num": 0,
@@ -85,16 +91,11 @@
     },
     "snap_map": {
         "11111111-1111-1111-1111-000000000000": {
-            "class_id": "com-snaplogic-snaps-binary-simpleread",
+            "class_id": "com-snaplogic-snaps-sqlserver-execute",
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000000",
             "property_map": {
-                "account": {
-                    "account_ref": {
-                        "expression": false,
-                        "value": {}
-                    }
-                },
+                "account": {},
                 "error": {
                     "error0": {
                         "label": {
@@ -110,42 +111,56 @@
                 },
                 "info": {
                     "label": {
-                        "value": "File Reader"
+                        "value": "SQL Server - Execute"
                     },
                     "notes": {
                         "value": null
                     }
                 },
                 "output": {
-                    "output0": {
+                    "output101": {
                         "label": {
-                            "value": "output0"
+                            "value": "tablename"
                         },
                         "view_type": {
-                            "value": "binary"
+                            "value": "document"
                         }
                     }
                 },
                 "settings": {
-                    "executeDuringPreview": {
-                        "value": true
+                    "autoCommit": {
+                        "value": "Use account setting"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
                     },
                     "execution_mode": {
                         "value": "Validate & Execute"
                     },
-                    "filePath": {
-                        "expression": false,
-                        "value": ""
-                    },
-                    "preventURLEncoding": {
+                    "ignoreEmptyResult": {
                         "value": false
+                    },
+                    "maxRetryProp": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "retryIntervalProp": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "sqlStatement": {
+                        "expression": false,
+                        "value": "select (schema_name(t.schema_id)) as schema_name, t.name as table_name from sys.tables t where schema_name(t.schema_id) = 'dbo' order by table_name"
                     }
                 },
-                "view_serial": 100
+                "view_serial": 101
             }
         },
         "11111111-1111-1111-1111-000000000001": {
-            "class_id": "com-snaplogic-snaps-transform-jsonparser",
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000001",
             "property_map": {
@@ -164,7 +179,10 @@
                 },
                 "info": {
                     "label": {
-                        "value": "JSON Parser"
+                        "value": "Execute Aptify-Child"
+                    },
+                    "notes": {
+                        "value": null
                     }
                 },
                 "input": {
@@ -173,7 +191,7 @@
                             "value": "input0"
                         },
                         "view_type": {
-                            "value": "binary"
+                            "value": "document"
                         }
                     }
                 },
@@ -188,14 +206,70 @@
                     }
                 },
                 "settings": {
-                    "allowNonStandardJson": {
+                    "execLabel": {
+                        "expression": true,
+                        "value": "$schema_name+\".\"+$table_name"
+                    },
+                    "executable_during_suggest": {
                         "value": true
                     },
-                    "arrayElementsAsDocuments": {
-                        "value": true
+                    "execution_mode": {
+                        "value": "Validate & Execute"
                     },
-                    "jsonFilterPath": {
-                        "value": ""
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "table_name"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "$table_name"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "schema_name"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "$schema_name"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "APTIFY-Child"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 8
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "reuse": {
+                        "value": false
+                    },
+                    "snaplex": {
+                        "expression": false,
+                        "value": "ase-groundplex-winsql-dev"
+                    },
+                    "snaplexGovernor": {
+                        "value": "SNAPLEX_WITH_PATH"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
                     }
                 },
                 "view_serial": 100

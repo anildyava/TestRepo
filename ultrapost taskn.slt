@@ -1,0 +1,31 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "ultrapost taskn",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": "",
+        "job_type": "standard",
+        "llfeed_token": "hdvmbVywlkoJNkAlMSO80JTRwUxiSf0c",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "ultrapost",
+        "snaplex_path": null,
+        "watchdog": {
+            "instances": 1,
+            "per": "PLEX"
+        }
+    },
+    "schedule": {
+        "always_on": true
+    },
+    "trigger": {
+        "always_on": true
+    },
+    "trigger_type": "ScheduleTrigger"
+}

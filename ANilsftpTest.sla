@@ -2,7 +2,7 @@
     "class_id": "com-snaplogic-snaps-binary-binarybasicauthaccount",
     "class_version": 1,
     "migration_metadata": {
-        "source_org": "snaplogic"
+        "source_org": "SL-Support"
     },
     "property_map": {
         "info": {

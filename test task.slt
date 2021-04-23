@@ -1,0 +1,31 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "test task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": "",
+        "job_type": "standard",
+        "llfeed_token": "8pfeQJ0yyQAgLnsHOcvJywvpHbJJ1NuA",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": null,
+        "snaplex_path": "Cloud",
+        "watchdog": {
+            "instances": 1,
+            "per": "PLEX"
+        }
+    },
+    "schedule": {
+        "always_on": true
+    },
+    "trigger": {
+        "always_on": true
+    },
+    "trigger_type": "ScheduleTrigger"
+}

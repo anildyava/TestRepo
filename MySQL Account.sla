@@ -1,0 +1,132 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-mysqldatabaseaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "SL-Support"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "MySQL Account"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "JdbcDriversProp": {
+                "value": [
+                    {
+                        "jdbcDriver": {
+                            "value": "mysql-connector-java-5.1.47.jar"
+                        }
+                    }
+                ]
+            },
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "AuthenticationMode": {
+                        "value": "Password"
+                    },
+                    "PassPhrase": {
+                        "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                        "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                        "sym_iv": "HLPmZlQ/iGYgWUZ86UjXVA==",
+                        "sym_key": "kYxfnpwtY5B3jAMzGwxFdVyMhvDgr9Ih1AR9nO75zlWpQz2kt/f+vPXin8Bi/Ixjs8QXlrJjlStf8YP1GXUrwaeM5Mnvd0IXfJdxdcnR2goHElIc45BkCBg4pnJpfbziKAS/X2DvRoOb9cwbQ8h/ERWVzbwnKg5vYWMw7nzD//V3aL3AgZwxeXDh3HUhFaWZQwodtDvrHsw3HHMMVCUEEnHR4O4YYV4fdBM7AV0s9LJECo7xZ6E115VH3ZvTD/TIyyfxdGlLR7ilR9df52TPsY5MxHXGcC4CwQTU8dbWw5CE6xUEXXCMxIWcjU/1AChdcHK2fn4FkH9rB2VtnStHwQ==",
+                        "value": "MW1hqwanZ1xT3ZnQwtL7Mg=="
+                    },
+                    "databaseName": {
+                        "value": "test"
+                    },
+                    "hostname": {
+                        "value": "localhost"
+                    },
+                    "keyAlias": {
+                        "value": null
+                    },
+                    "keyStoreURL": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "keystorePassword": {
+                        "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                        "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                        "sym_iv": "4JNfRw8N59APC5ii7j2E5A==",
+                        "sym_key": "Z7sRjRQ5rxRlizpHd6AyO7w4u+LFCtCZ2oQp1K1AHdDgOm/1B6umN1wvy8KMjHBpg8WHNCalhI/ubLH8sfxpazfgYgtxf5jeWLC5uvotRKEexGzqGN2bjb3qqjdFbwDfFgjgJIcZV3qPcUsJXMDVVRCBqtSFjNWcsLIxytrPXHT+UMfMuRWycixNgNztFTtuL1hJhLyM2ZhlWyVk8dMEOb4Lww+EsOt9rmkQxhmgHMbPngUrvHljvkQbpCusYl/bMBeNTePBoee/MjwTLC75Q/9l9MPL6BDAxvBotpHIlcy2726Z2D6zRVVfQXCDvyF0yz4ElWI4CifYARmnt1m0VQ==",
+                        "value": "XUJVbDjnNxcnjh73LkB4FQ=="
+                    },
+                    "password": {
+                        "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                        "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                        "sym_iv": "4Meg1ZqAPQFREH2gDhJrdg==",
+                        "sym_key": "N9hFqK026VxswL69gZFnDIsfLdz1ETksI455cPx+UtTfQK1Bj9IMK3MYJEVsfvatxEpnTo+X7EICiMvLA6kyiHiYrdEj6EpIOkwsmsBtWxeyNbmwlg3irUBA7I+a5WR66DRBjZat/tp+Y3v/5flXBDIEFYPUUhn5k/L69g5eFnPkenclBEYvKMw4cczFmb1M9etkNC5Zk/n68wFPt9WQCHg7gRePAH8DbBo4yU26YM0ePC45ut77TiB9Zv6nv32KRE0kZikh8DI+WvZrX9OuqpWVsgrlnDMRJnrrrFp8DtsZ7gnLDviwGn657faX6+7O8Q+yW1f5rlD2VhJquhKsjQ==",
+                        "value": "RsXb9FzQ0LdQza2fpYyXnQ=="
+                    },
+                    "portNumber": {
+                        "value": 3306
+                    },
+                    "sshTunnelConfiguration": {
+                        "value": false
+                    },
+                    "sshhostname": {
+                        "value": null
+                    },
+                    "sshpassword": {
+                        "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                        "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                        "sym_iv": "WFPMBKP+djDTQEj7jFAOVw==",
+                        "sym_key": "JiNZgy55/DXGW2soxe38RThDsDjCdjPaGnSejts8GSe096qGrzXjwVpPYDBSoD2u6cJ6cCjXwmCY0v5IB1PRdcydWwE5oL/aSjGnhfPSzTx05rWd6V8GJthmMcYdLqJn+GgkxPPZIb/I+9ilnSCyd2X93sUlM827hTryJXsJ5aAHEuM5nB7NVEGO2DHyK4GZmvDcN28kekcpRam/9z13b6/IvxzInf/ZYFH+C4bOVmgfl/tRSycrERX2ezmUI8Qq05WtGGT+6ez0RaoWKS327RXLKQQETEfyB77HEhpOJlpGswM54MuYyrSInOvkYjfCzjmrMC1tMVKCCeaGAQuAQw==",
+                        "value": "+QJ/NCeLwUeZj41ZqJiBXg=="
+                    },
+                    "sshusername": {
+                        "value": null
+                    },
+                    "username": {
+                        "value": "admin"
+                    }
+                }
+            },
+            "jdbcDriverClass": {
+                "value": "com.mysql.jdbc.Driver"
+            }
+        },
+        "view_serial": 100
+    }
+}

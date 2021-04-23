@@ -1,0 +1,48 @@
+{
+    "class_id": "com-snaplogic-snaps-confluentkafka-confluentkafkaaccountnoauth",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "SL-Support"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Kafkatest"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedKafkaPropertiesList": {
+                "value": [
+                    {
+                        "advancedKafkaKeyProperty": {
+                            "expression": true,
+                            "value": null
+                        },
+                        "advancedKafkaValueProperty": {
+                            "expression": true,
+                            "value": null
+                        }
+                    }
+                ]
+            },
+            "bootstrapServerList": {
+                "value": [
+                    {
+                        "bootstrapServer": {
+                            "expression": false,
+                            "value": "localhost:9092"
+                        }
+                    }
+                ]
+            },
+            "schemaRegistryUrl": {
+                "expression": false,
+                "value": null
+            }
+        },
+        "view_serial": 100
+    }
+}

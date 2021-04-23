@@ -10,43 +10,28 @@
         },
         "info": {
             "author": {
-                "value": "adyava@snaplogic.com"
+                "value": "spinaka@snaplogic.com"
             },
-            "label": {},
-            "notes": {
-                "value": null
-            },
-            "pipeline_doc_uri": {
-                "value": null
-            },
-            "purpose": {
-                "value": null
-            }
+            "label": {}
         },
-        "input": {},
-        "output": {
-            "11111111-1111-1111-1111-000000000000_output101": {
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input0": {
                 "label": {
-                    "value": "Redshift - Execute - output0"
+                    "value": "Script - input0"
                 },
                 "view_type": {
                     "value": "document"
                 }
             }
         },
-        "settings": {
-            "error_param_table": {
-                "value": []
-            },
-            "error_pipeline": {
-                "expression": false,
-                "value": null
-            },
-            "imports": {
-                "value": []
-            },
-            "param_table": {
-                "value": []
+        "output": {
+            "11111111-1111-1111-1111-000000000000_output0": {
+                "label": {
+                    "value": "Script - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
             }
         }
     },
@@ -55,12 +40,15 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 2,
+                "grid_x_int": 3,
                 "grid_y_int": 2,
+                "index": null,
                 "input": {},
                 "output": {},
+                "recommendation_id": null,
                 "rot_int": 0,
-                "rot_tail_int": 0
+                "rot_tail_int": 0,
+                "source": "snap catagory"
             }
         },
         "pan_x_num": 0,
@@ -69,11 +57,10 @@
     },
     "snap_map": {
         "11111111-1111-1111-1111-000000000000": {
-            "class_id": "com-snaplogic-snaps-redshift-execute",
-            "class_version": 1,
+            "class_id": "com-snaplogic-snaps-script-script",
+            "class_version": 2,
             "instance_id": "11111111-1111-1111-1111-000000000000",
             "property_map": {
-                "account": {},
                 "error": {
                     "error0": {
                         "label": {
@@ -89,14 +76,24 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Redshift - Execute"
+                        "value": "Script"
                     },
                     "notes": {
                         "value": null
                     }
                 },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
                 "output": {
-                    "output101": {
+                    "output0": {
                         "label": {
                             "value": "output0"
                         },
@@ -106,28 +103,26 @@
                     }
                 },
                 "settings": {
-                    "autoCommit": {
-                        "value": "Use account setting"
+                    "editable_content": {
+                        "value": null
                     },
                     "executable_during_suggest": {
-                        "value": true
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    },
-                    "ignoreEmptyResult": {
                         "value": false
                     },
-                    "passThrough": {
-                        "value": true
+                    "execution_mode": {
+                        "value": "Execute only"
                     },
-                    "sqlStatement": {
+                    "language": {
+                        "value": "Python"
+                    },
+                    "script": {
                         "expression": false,
-                        "value": "insert into us1a_stg.stg_ptd_mnthly_ra_pat_atvy (row_id,cycl_time_id,scen_id,pat_id,atvy_type,plan_id,atvy_yr,atvy_qtr,inrt_by,inrt_dt)select row_id,320171201,1,case when (pat_id = '') then null else cast(pat_id as bigint) end as pat_id,case when (atvy_type = '') then null else upper(trim(atvy_type)) end as atvy_type,case when (plan_id = '') then null else upper(trim(plan_id)) end as plan_id,case when (atvy_yr = '') then null else upper(trim(atvy_yr)) end as atvy_yr,case when (atvy_qtr = '') then null else upper(trim(atvy_qtr)) end as atvy_qtr,'cdwusetl01', getdate() as inrt_dt from us1a_stg.bs_ptd_mnthly_ra_pat_atvy base"
+                        "value": null
                     }
                 },
-                "view_serial": 101
+                "view_serial": 100
             }
         }
-    }
+    },
+    "target_runtime": "standard"
 }

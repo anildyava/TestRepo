@@ -1,14 +1,7 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
-    "link_map": {
-        "link100": {
-            "dst_id": "11111111-1111-1111-1111-000000000001",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000000",
-            "src_view_id": "output0"
-        }
-    },
+    "link_map": {},
     "property_map": {
         "error": {
             "error_behavior": {
@@ -32,9 +25,9 @@
         },
         "input": {},
         "output": {
-            "11111111-1111-1111-1111-000000000001_output0": {
+            "11111111-1111-1111-1111-000000000000_output0": {
                 "label": {
-                    "value": "JSON Parser - output0"
+                    "value": "Confluent Kafka Consumer - output0"
                 },
                 "view_type": {
                     "value": "document"
@@ -62,21 +55,15 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 1,
-                "grid_y_int": 1,
-                "input": {},
-                "output": {},
-                "rot_int": 0,
-                "rot_tail_int": 0
-            },
-            "11111111-1111-1111-1111-000000000001": {
-                "error": {},
                 "grid_x_int": 2,
-                "grid_y_int": 1,
+                "grid_y_int": 2,
+                "index": null,
                 "input": {},
                 "output": {},
+                "recommendation_id": null,
                 "rot_int": 0,
-                "rot_tail_int": 0
+                "rot_tail_int": 0,
+                "source": "snap catagory"
             }
         },
         "pan_x_num": 0,
@@ -85,14 +72,26 @@
     },
     "snap_map": {
         "11111111-1111-1111-1111-000000000000": {
-            "class_id": "com-snaplogic-snaps-binary-simpleread",
+            "class_id": "com-snaplogic-snaps-confluentkafka-confluentkafkaconsumer",
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000000",
             "property_map": {
                 "account": {
                     "account_ref": {
                         "expression": false,
-                        "value": {}
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "Kafkatest"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-confluentkafka-confluentkafkaaccountnoauth"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
                     }
                 },
                 "error": {
@@ -110,7 +109,7 @@
                 },
                 "info": {
                     "label": {
-                        "value": "File Reader"
+                        "value": "Confluent Kafka Consumer"
                     },
                     "notes": {
                         "value": null
@@ -122,80 +121,72 @@
                             "value": "output0"
                         },
                         "view_type": {
-                            "value": "binary"
+                            "value": "document"
                         }
                     }
                 },
                 "settings": {
-                    "executeDuringPreview": {
-                        "value": true
+                    "ackMode": {
+                        "value": "Wait after each record"
+                    },
+                    "ackTimeout": {
+                        "expression": false,
+                        "value": 10
+                    },
+                    "ackTimeoutPolicy": {
+                        "value": "Reprocess"
+                    },
+                    "add1ToOffsets": {
+                        "value": false
+                    },
+                    "autoOffsetReset": {
+                        "value": "Earliest"
                     },
                     "execution_mode": {
                         "value": "Validate & Execute"
                     },
-                    "filePath": {
+                    "groupID": {
                         "expression": false,
-                        "value": ""
+                        "value": "test"
                     },
-                    "preventURLEncoding": {
+                    "keyDeserializer": {
+                        "value": "String"
+                    },
+                    "maxPollRecords": {
+                        "expression": false,
+                        "value": 500
+                    },
+                    "maxWaitingTime": {
+                        "expression": false,
+                        "value": 2000
+                    },
+                    "messageCount": {
+                        "expression": false,
+                        "value": 1200
+                    },
+                    "offset": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "partitionNumber": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "passThrough": {
                         "value": false
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000001": {
-            "class_id": "com-snaplogic-snaps-transform-jsonparser",
-            "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000001",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
                     },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "JSON Parser"
-                    }
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "binary"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "allowNonStandardJson": {
+                    "seekType": {
+                        "value": "End"
+                    },
+                    "syncCommit": {
                         "value": true
                     },
-                    "arrayElementsAsDocuments": {
-                        "value": true
+                    "topics": {
+                        "expression": false,
+                        "value": "TesttopicNew"
                     },
-                    "jsonFilterPath": {
-                        "value": ""
+                    "valDeserializer": {
+                        "value": "String"
                     }
                 },
                 "view_serial": 100

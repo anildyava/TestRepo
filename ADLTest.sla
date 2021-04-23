@@ -1,0 +1,40 @@
+{
+    "class_id": "com-snaplogic-snaps-binary-azuredatalakeaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "SL-Support"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "ADLTest"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "accessId": {
+                "expression": false,
+                "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                "sym_iv": "qo9Z3ZsmpHhczpQqBHXqKQ==",
+                "sym_key": "fk6uxintlIdqRhPH1zbwFmQFjef4vjUgivf2/8gsXEPp3z10457emE/gkMb1UHIsquQ7QmAwmxWDoNflhUgGuKxnn/dEDWpdTdxf5MVjLTERFmSYvyuA5jOAZ3I3qwF+tnh+s9bX+X2UATpOY5vBeBEjkyUZyjRO7+RKhsQbPOMMlDKdWizfimiR3WUgJNeBfaNgnF7jXmQYmscaJj+HEWKvg/5b9A1CUdzds5ey5cgU4cFIepapXsqh8GT1H2hLIJvazH0+yXteF5aUvPxOinct7ES0THlM9ZsOnG49YlbaLuAF2NoE8kupJSt3mW+HSQe5FJZrDWhsaTXqNcy3JA==",
+                "value": "5NntvgdUlT4e6zqtbN6373jDVYj/DAnQ8UF2p81Ka7rc2BTCkidKNC2LCZBOA/To"
+            },
+            "secretKey": {
+                "expression": false,
+                "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                "sym_iv": "ueL9iQWHq5bmLbNQLlEz8A==",
+                "sym_key": "tXtWHvmTTR244/+ggaFlI9ewhbUskjmxzpHmSahx4MUve/p4LTWrjAgtiCkFU9dReZVYdZNdwUF3G6LZ+aCo79K1u7+R7DjypgAD77FwgD8j9XTw7GklPY5hVbD1SgfRYM+T6ofocgZZ8fzV495iqv4oEYyOQrhiYafSWbGUoIc4EuGRvGE++UVhJETq0jfKaC9xiAGfKgI4ZztJMB3WKKlOLzScaTHT/+biN97+W41ehwQf+3b0NxmIo1Sxss1D5NY4OJl6eBqqdD8Fpuk6gHXMmNgpEi6R2ItoztR8k0qAanONtBmNxUjIs7F5MB+bhnyamB7zQrAtnfK/h86kYA==",
+                "value": "p+rieHiBSGoh+KFbgTkQgV/+9NSjmDuYhbRJJsto9EK9EdFxys61n6SUwEgAGsAb"
+            },
+            "tenantId": {
+                "expression": false,
+                "value": "3164ebb4-0b34-42ff-820b-25c39783105f"
+            }
+        },
+        "view_serial": 100
+    }
+}

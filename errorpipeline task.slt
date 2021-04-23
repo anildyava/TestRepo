@@ -1,0 +1,23 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "errorpipeline task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "DZoOuQNUf6L4V4oOydVEwLIfah7K3i4H",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "errorpipeline",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

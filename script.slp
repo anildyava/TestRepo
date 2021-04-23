@@ -1,0 +1,151 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {},
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "adyava@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input0": {
+                "label": {
+                    "value": "Script - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000000_output0": {
+                "label": {
+                    "value": "Script - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-script-script",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Script"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "editable_content": {
+                        "value": "// Ensure compatibility with both JDK 7 and 8 JSR-223 Script Engines \ntry { load(\"nashorn:mozilla_compat.js\"); } catch(e) { }\n\n// Import the interface required by the Script snap. \nimportPackage(com.snaplogic.scripting.language);\n\n// Import the Java utility classes. \nimportPackage(java.util);\n\n/** \n* Create an object that implements the methods defined by the \"ScriptHook\" \n* interface. We'll be passing this object to the constructor for the \n* ScriptHook interface. \n*/ \nvar impl = { \n/* \n* These variables (input, output, error, log) are defined by the \n* ExecuteScript snap when evaluating this script. \n*/ \ninput : input, \noutput : output, \nerror : error, \nlog : log,\n\n/** \n* The \"execute()\" method is called once when the pipeline is started \n* and allowed to process its inputs or just send data to its outputs. \n* \n* Exceptions are automatically caught and sent to the error view. \n*/ \nexecute : function () { \nthis.log.info(\"Executing Transform Script\"); \nif (this.input.hasNext()) \n{ \n//Declare file variable starting with XML header. The xml contents will be appeneded in while loop. \nvar strFullFile=\"\"; \nvar wrapper = new java.util.HashMap(); \nvar Prev_Pricebookid; \nvar Current_PriceBookId; \nwhile (this.input.hasNext()) { \ntry{ \n// Read the next document, wrap it in a map and write out the wrapper \nvar doc = this.input.next(); \nCurrent_PriceBookId = doc.'content-disposition';\n\nif (Prev_Pricebookid == Current_PriceBookId) \n{ \nstrFullFile = strFullFile + doc.content; \n} \nelse \n{ \nstrFullFile = strFullFile + \"<pricebook>\"+doc.'content-type'; \nstrFullFile = strFullFile + doc.content; \n}\n\nthis.log.info(\"Transform Script finished\"); \nPrev_Pricebookid = Current_PriceBookId;\n\n} \ncatch(err) { \nvar wrapper = new java.util.HashMap(); \nwrapper.put(\"errorMsg\", err); \nthis.log.error(err); \nthis.error.write(wrapper); \n} \n} \nwrapper.put(\"content\", strFullFile); \nthis.output.write(strFullFile, wrapper); \n} \n} \n};\n\n/** \n* The Script Snap will look for a ScriptHook object in the \"hook\" \n* variable. The snap will then call the hook's \"execute\" method. \n*/ \nvar hook = new com.snaplogic.scripting.language.ScriptHook(impl);"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "language": {
+                        "value": "Javascript"
+                    },
+                    "script": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

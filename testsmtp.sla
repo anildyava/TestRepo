@@ -1,0 +1,58 @@
+{
+    "class_id": "com-snaplogic-snaps-email-smtpaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "SL-Support"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "testsmtp"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "attachmentPassword": {
+                "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                "sym_iv": "Zmpmm3YKYmC8Abr4bsOvGA==",
+                "sym_key": "R/QFt+vgm2mEsGpc0KmVF8Qbo67rC95RxV+9OZyf93QoVv+v75hA+WYmjHlfJw2qrxs7LP8B87k5Q2+KcThfF9Ok7Db3eI5qS90tZJHLOdM0uCfw8WrYbY8PcBA8Zk5Rzm2yVT9ZM2L/gToCGqeyy50VLlXtSQGhUdeT9+IB37fYlRq9MCbMXsZJWy1p9sFHdtUbLcc3rRAZug3Prrn7x7PIKit4JLYY+vuStMMwuf4QZHkICdALuvdUXEkGtD73HthxovM7WWGHm1tlbfxQ1LZ1fhB1R9hwUcT5SxQ2HrYtb/q56PzY1t67TEp9tOV7rMHFnj3P14mpE5q7jrDUaA==",
+                "value": "4w674xyDHNtou5L8kMJIDA=="
+            },
+            "connectionTimeout": {
+                "value": 60000
+            },
+            "emailId": {
+                "value": "dyava.anilkumar@gaianconsultants.com"
+            },
+            "mailProperties": {
+                "value": []
+            },
+            "password": {
+                "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
+                "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
+                "sym_iv": "aIicey50FDPzCSq4ddRVrg==",
+                "sym_key": "rUxYyY+SxeU2YXx4usnFe2jTv/B5ndFwe/eOK7miLdudXWqNUt9SqGWTMxt732WGCgpmracVmEsRQ466O/2sWn7nMpLV/lXorRyIt8bgrMoZngVq1uGcN8BnbOmMchewpYHaRpAhPvmJ+V04KA0hyCDkmvSANQ/rB3qpzHVffppVDvh5okXy1HNqUsy0nXYMp0+M5aYplNWrDNKOS+ueijJZtH+wyzRshL9/yuD744qRtzM+phPhpQjN7n+r/RC6fQmiUWhslu6H9WT9EMMtug6KKtif0+2mJMNlGXE4WlD+fy9zjQndKLWzCx6emkTLb58zRYtHC1i84M8g20VWfg==",
+                "value": "xMlj9NN+Up3e/zxzaItHpg=="
+            },
+            "port": {
+                "value": "587"
+            },
+            "readTimeout": {
+                "value": 60000
+            },
+            "secureConnection": {
+                "value": "STARTTLS"
+            },
+            "serverDomain": {
+                "value": "smtp.gmail.com"
+            },
+            "writeTimeout": {
+                "value": 60000
+            }
+        },
+        "view_serial": 100
+    }
+}
