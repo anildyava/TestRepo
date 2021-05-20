@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<File>
+	<Interface Type="SupplyInput" Vendor="PMD">
+		<ExportDate>20-JAN-2021</ExportDate>
+		<Lots>
+			<Lot>
+				<LotNum>MEDI-01194</LotNum>
+				<ItemID>M8003671</ItemID>
+				<LotID>CK0130</LotID>
+				<Description>MEDI-01194</Description>
+PLEASE PURCHASE PERSONAL LICENSE
+				<LotQty>7115</LotQty>
+				<LotStatus>PRODUCED</LotStatus>
+				<MfgDate>30-JUL-2014</MfgDate>
+				<RetestDate>30-JUL-2024</RetestDate>
+				<Manufacturer>MedImmune Nijmegen</Manufacturer>
+				<ExpectedLagMonths/>
+				<ExpectedYield/>
+				<ReserveQty/>
+				<LotLocations>
+					<LotLocation>
+PLEASE PURCHASE PERSONAL LICENSE
+						<Location>FCS-HOR-UK</Location>
+						<LocationType>DEPOT</LocationType>
+						<Region>FCS-HOR UK</Region>
+						<LocationQty>7115</LocationQty>
+						<ConsumedQty/>
+						<LocationStatus>QUARANTINE</LocationStatus>
+					</LotLocation>
+				</LotLocations>
+				<LotOrdCountries/>
+				<LotRecDate>26-JUN-2015 05:14:05</LotRecDate>
+PLEASE PURCHASE PERSONAL LICENSE
+			</Lot>
+		</Lots>
+	</Interface>
+	<Interface Type="SupplyInput" Vendor="PMD">
+		<ExportDate>04-SEP-2020</ExportDate>
+		<Lots>
+			<Lot>
+				<LotNum>L000437</LotNum>
+				<ItemID>DS00100</ItemID>
+				<LotID>057/06</LotID>
+PLEASE PURCHASE PERSONAL LICENSE
+				<Description>L000437</Description>
+				<LotQty>1254.4</LotQty>
+				<LotStatus>PRODUCED</LotStatus>
+				<MfgDate/>
+				<RetestDate>31-MAY-2010</RetestDate>
+				<Manufacturer>AZ Clinicopia</Manufacturer>
+				<ExpectedLagMonths/>
+				<ExpectedYield/>
+				<ReserveQty/>
+				<LotLocations>
+PLEASE PURCHASE PERSONAL LICENSE
+					<LotLocation>
+						<Location>AZ-MOL-SE</Location>
+						<LocationType>DEPOT</LocationType>
+						<Region>AZ-MOLN</Region>
+						<LocationQty>1254.4</LocationQty>
+						<ConsumedQty/>
+						<LocationStatus>EXPIRED</LocationStatus>
+					</LotLocation>
+				</LotLocations>
+				<LotOrdCountries/>
+PLEASE PURCHASE PERSONAL LICENSE
+				<LotRecDate>23-MAY-2020 03:50:57</LotRecDate>
+			</Lot>
+		</Lots>
+	</Interface>
+</File>

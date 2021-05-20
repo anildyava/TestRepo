@@ -3,7 +3,7 @@
     "job_name": "adobe39669 task",
     "note": "",
     "parameters": {
-        "enabled": true,
+        "enabled": false,
         "execution_timeout": null,
         "include_external_urls": false,
         "job_alias": null,

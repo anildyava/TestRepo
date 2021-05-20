@@ -1,0 +1,69 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "TestSchdule425 Task 5mnts",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "job_type": "standard",
+        "llfeed_token": "s21h5CKb0DOH6zBuUgJ06KNyaMrsJzlQ",
+        "notification": {
+            "slack_recipients": [
+                {
+                    "channel": [],
+                    "user": []
+                }
+            ]
+        },
+        "pipeline_path": "TestSchdule425",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "0",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 5,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2021-05-09",
+        "start_time": "15:17:54",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "0",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 5,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2021-05-09",
+        "start_time": "15:17:54",
+        "time_zone": "Asia/Kolkata"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

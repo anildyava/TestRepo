@@ -1,0 +1,31 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "GitCLIENT_CLOSED Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "job_type": "standard",
+        "llfeed_token": "TgBz5DBKA9MOC2XCFFhxRJCDPQqfyeQI",
+        "notification": {
+            "slack_recipients": [
+                {
+                    "channel": [],
+                    "user": []
+                }
+            ]
+        },
+        "pipeline_path": "CLIENT_CLOSED",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {
+        "start_date": "2021-05-20",
+        "start_time": "18:31:10",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "start_date": "2021-05-20",
+        "start_time": "18:31:10",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

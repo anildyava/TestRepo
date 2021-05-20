@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><File>
+<Interface Type="SupplyInput" Vendor="PMD">
+<ExportDate>20-JAN-2021</ExportDate>
+<Lots>
+<Lot>
+<LotNum>MEDI-01194</LotNum>
+<ItemID>M8003671</ItemID>
+<LotID>CK0130</LotID>
+<Description>MEDI-01194</Description>
+<LotQty>7115</LotQty>
+<LotStatus>PRODUCED</LotStatus>
+<MfgDate>30-JUL-2014</MfgDate>
+<RetestDate>30-JUL-2024</RetestDate>
+<Manufacturer>MedImmune Nijmegen</Manufacturer>
+<ExpectedLagMonths/>
+<ExpectedYield/>
+<ReserveQty/>
+<LotLocations>
+<LotLocation>
+<Location>FCS-HOR-UK</Location>
+<LocationType>DEPOT</LocationType>
+<Region>FCS-HOR UK</Region>
+<LocationQty>7115</LocationQty>
+<ConsumedQty/>
+<LocationStatus>QUARANTINE</LocationStatus>
+</LotLocation>
+</LotLocations>
+<LotOrdCountries/>
+<LotRecDate>26-JUN-2015 05:14:05</LotRecDate>
+</Lot>
+</Lots>
+</Interface>
+</File>

@@ -12,10 +12,16 @@
         "max_failures": 10,
         "max_in_flight": 200,
         "notification": {
-            "recipients": null
+            "recipients": null,
+            "slack_recipients": [
+                {
+                    "channel": [],
+                    "user": []
+                }
+            ]
         },
         "pipeline_path": "ultrajoin",
-        "snaplex_path": null,
+        "snaplex_path": "Cloud",
         "watchdog": {
             "instances": 1,
             "per": "PLEX"

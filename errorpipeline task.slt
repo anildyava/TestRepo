@@ -3,7 +3,7 @@
     "job_name": "errorpipeline task",
     "note": "",
     "parameters": {
-        "enabled": true,
+        "enabled": false,
         "execution_timeout": null,
         "include_external_urls": true,
         "job_alias": null,
