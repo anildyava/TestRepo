@@ -3,7 +3,7 @@
     "job_name": "CLIENT_CLOSED Task",
     "note": "",
     "parameters": {
-        "enabled": true,
+        "enabled": false,
         "execution_timeout": null,
         "include_external_urls": true,
         "job_alias": null,

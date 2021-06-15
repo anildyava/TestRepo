@@ -33,9 +33,9 @@
             "password": {
                 "fp": "0b6e7f19cc62d05bc8015bb3e58f4fcce8a62f57d83d40c9e974908f959507d4",
                 "key": "account-cloud-managed-5e186f1946a31e1d45a3db20-2020-01-10T12:33:45-754988+00:00",
-                "sym_iv": "inbYHavJhJEg3orCxyd/uA==",
-                "sym_key": "aUJ3F1YMLuubj6xrgQaq0GAzBFFRAjCg1GksDFv4B1ayGe3V8hPDqMDbyvGeoYdk4bDk7irNgpY912b1+kgiSikH0wHZWWFrU2/T9Yv48qrP5Um1ZULtcZ3dE2kCu6EEHLTqAl2HfwYyuAWfktykUZStjcKo7JL36R/hr1D/iu6XWMp/t+NnrMhy3vYn50Th9kwzGmZTyJeO2DBhYxl+AFakkQH43GGK8jpkibGA62Z7tg/KX2CCIYM2d3Ra1CZKvUibjBoRfC7q8+KSf1sfnle8BSc13tO/ma+uCOyZ3Avj5SvBiZZWleznbgpgAWz0RxT/P541wgAUTmrU5kzQEg==",
-                "value": "4BtNl+RS9j8x7xBpkjVbdg=="
+                "sym_iv": "VzideTOCen/ra5MUwko24Q==",
+                "sym_key": "P2rKf/A0nJ1M//pNBS31+JtsbyMWN/JPLjB7ZDaGyo6X5KaRaPb5C6zxGeS0nyfssysyc0hGvoHc/EdIxfEPvhZgs/MDhr90M5RyQ7I+nWnqIRJjsz0tO+xnFyuxwngmAofrLh5ptnDoTJJyWZZgIdLSnbNJ/W8m+77U22YEkKsGE8gKf2yQpXcDIMpl3/iMab22Y/zSaK+/+VNCSrgPgHxKwjPrzED1+/QIjFN/Hb9C0K6r0sF/kh5dQmpgZGdW/4GS+QWAPi+NXSbD2oVB7dU/H/UCNRyPOMoQuHtSA6+lXuy4hZXjA4C351GCxzPspLx8AmnJbbtqcJjG/GFWdg==",
+                "value": "X9TwcmX6Lqlyuv17yjuv9g=="
             },
             "port": {
                 "value": "993"
@@ -47,7 +47,7 @@
                 "value": "STARTTLS"
             },
             "serverDomain": {
-                "value": "smtp.gmail.com"
+                "value": "imap.gmail.com"
             },
             "writeTimeout": {
                 "value": 60000

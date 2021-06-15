@@ -3,7 +3,7 @@
     "job_name": "GitCLIENT_CLOSED Task",
     "note": "",
     "parameters": {
-        "enabled": true,
+        "enabled": false,
         "job_type": "standard",
         "llfeed_token": "TgBz5DBKA9MOC2XCFFhxRJCDPQqfyeQI",
         "notification": {

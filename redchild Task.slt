@@ -1,0 +1,28 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "redchild Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "test",
+        "notification": {
+            "recipients": "adyava@snaplogic.com",
+            "slack_recipients": [
+                {
+                    "channel": [],
+                    "user": []
+                }
+            ],
+            "states": [
+                "Completed"
+            ]
+        },
+        "pipeline_path": "redchild",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}
